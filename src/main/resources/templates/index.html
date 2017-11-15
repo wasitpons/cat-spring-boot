@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<th:block th:include="fragment/header :: head-css"></th:block>
+</head>
+<body>
+	<th:block th:include="fragment/header :: header"></th:block>
+	<div th:replace="fragment/sideNavbar :: sidebar"/>
+	<div class="offset-md-4">
+		<p>Content</p>
+		<br/><br/><br/><br/><br/><br/><br/><br/>
+		<br/><br/><br/><br/><br/><br/><br/><br/>
+		
+		
+	</div>
+	<div th:replace="fragment/footer :: footer"/>
+</body>
+
+</html>
